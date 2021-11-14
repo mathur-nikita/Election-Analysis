@@ -9,3 +9,8 @@ For this project we have been asked by Tom, a Colorado Board of Elections employ
 3) Reporting the number of votes cast for each candidate
 4) Reporting the percentage of votes each candidate received 
 5) Reporting the winner of the election based on popular vote
+
+## Resources 
+ - Data Source: election_results.csv
+ - Software: Python 3.6.1, Visual Studio Code 1.62.0
+
