@@ -23,9 +23,10 @@ The results of the election audit were posted to an output file using our Python
 
 ![election_analysis_summary.PNG](https://github.com/mathur-nikita/Election_Analysis/blob/main/Resources/election_analysis_summary.PNG)
 
-Breakdown of audit results:
+### Breakdown of Audit Results for Candidates:
 
 1) The total number of votes that were cast in this election were 369,711 votes. 
+
 2) The following candidates received votes during this election:
 - Charles Casper Stockham
 - Diana DeGette
@@ -40,4 +41,18 @@ Breakdown of audit results:
 - Raymon Anthony Doane received 3.1% of the votes. 
 5) The winner of this election was candidate Diana DeGette, who won the popular vote with 272,892 votes (73.8% of all votes).
 
+### Breakdown of Audit Results for Counties:
 
+1) Three counties were reported to have voters participating in this election:
+- Jefferson County
+- Denver County
+- Arapahoe County
+2) The number of votes cast per county were as follows:
+- Jefferson County cast 38,855 votes.
+- Denver County cast 306,055 votes.
+- Arapahoe County cast 24,801 votes.
+3) The percentage of votes cast per county is as follows:
+- Jefferson County cast 10.5% of the votes.
+- Denver County cast 82.8% of the votes.
+- Arapahoe County cast 6.7% of the votes.
+4) The county with the largest voter turnout was Denver County, with a voter turnout of 306,055 voters (82.8% of all voters participating in this election).
