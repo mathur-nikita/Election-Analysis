@@ -1,6 +1,6 @@
 # Election Analysis
 
-## Overview of Project
+## Overview of Election Audit Project
 
 For this project we have been asked by Tom, a Colorado Board of Elections employee, to help with an audit of the election results of a U.S. Congressional Precinct in Colorado.  In order to complete this audit the following tasks must be completed:
 
@@ -17,7 +17,7 @@ This work is usually completed in Excel but we have been asked if the entire pro
  - Data Source: election_results.csv
  - Software: Python 3.6.1, Visual Studio Code 1.62.0
 
-## Summary
+## Election Audit Results
 
 The results of the election audit were posted to an output file using our Python script, as shown below:
 
