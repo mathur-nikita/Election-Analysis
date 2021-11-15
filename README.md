@@ -56,3 +56,19 @@ The results of the election audit were posted to an output file using our Python
 - Denver County cast 82.8% of the votes.
 - Arapahoe County cast 6.7% of the votes.
 4) The county with the largest voter turnout was Denver County, with a voter turnout of 306,055 voters (82.8% of all voters participating in this election).
+
+## Election Audit Summary
+
+The Python script has been proven to successfully generate results for a congressional election and has the flexbility to be used for additional election audits.  
+
+#### Mayoral Elections
+
+The script can be adjusted to handle local mayoral elections.  Currently there are a few sections of code that are specific to tabulating data for counties, but those won't apply to city elections so they would need to be removed:
+
+code_segments_for_county_info.PNG
+
+Mayoral elections can have multiple rounds if none of the candidates receive 50% or more of the vote, so an additional result would need to be handled for this situation.  Currently the code is only accounting for majority wins:
+
+winning_candidate_congressional.png
+
+This code can be updated to handle a second round voting:
