@@ -71,6 +71,6 @@ Mayoral elections can have multiple rounds if none of the candidates receive 50%
 
 ![winning_candidate_congressional.png](https://github.com/mathur-nikita/Election_Analysis/blob/main/Resources/winning_candidate_congressional.PNG)
 
-The updated code would look something like this, with the addition of a few variable name changes for ease of reading:
+The updated code would look something like this, but probably with the addition of a few variable name changes for ease of reading (example all "winner_" variables would be renamed to "majority_" prefixes:
 
 ![mayoral_elections_code.PNG](https://github.com/mathur-nikita/Election_Analysis/blob/main/Resources/mayoral_elections_code.PNG)
