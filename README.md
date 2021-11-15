@@ -19,12 +19,25 @@ This work is usually completed in Excel but we have been asked if the entire pro
 
 ## Summary
 
-1) The total number of votes that were cast in this election were 369,711 votes.
- 
+The results of the election audit were posted to an output file using our Python script, as shown below:
+
+![election_analysis_summary.PNG](https://github.com/mathur-nikita/Election_Analysis/blob/main/Resources/election_analysis_summary.PNG)
+
+Breakdown of audit results:
+
+1) The total number of votes that were cast in this election were 369,711 votes. 
 2) The following candidates received votes during this election:
 - Charles Casper Stockham
 - Diana DeGette
 - Raymon Anthony Doane
+3) The number of votes cast for each candidate were as follows:
+- Charles Casper Stockham received 85,213 votes.
+- Diana DeGette received 272,892 votes.
+- Raymon Anthony Doane received 11,606 votes.
+4) The percentage of votes received per candidate is as follows:
+- Charles Casper Stockham received 23.0% of the votes.
+- Diana DeGette received 73.8% of the votes.
+- Raymon Anthony Doane received 3.1% of the votes. 
+5) The winner of this election was candidate Diana DeGette, who won the popular vote with 272,892 votes (73.8% of all votes).
 
-3) The following shows the total breakdown of votes cast for each candidate
-4) 
+
