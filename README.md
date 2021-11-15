@@ -61,7 +61,7 @@ The results of the election audit were posted to an output file using our Python
 
 The Python script has been proven to successfully generate results for a congressional election and has the flexbility to be used for additional election audits.  
 
-#### Mayoral Elections
+#### 1) Mayoral Elections
 
 The script can be adjusted to handle local mayoral elections.  Currently there are a few sections of code that are specific to tabulating data for counties, but those won't apply to city elections so they would need to be removed:
 
@@ -74,3 +74,13 @@ Mayoral elections can have multiple rounds if none of the candidates receive 50%
 The updated code would look something like this, but probably with the addition of a few variable name changes for ease of reading (example all "winner_" variables would be renamed to "majority_" prefixes:
 
 ![mayoral_elections_code.PNG](https://github.com/mathur-nikita/Election_Analysis/blob/main/Resources/mayoral_elections_code.PNG)
+
+#### 2) City Council Elections
+
+City Council elections can have multiple open seats and more candidates than seats for those openings.  The code could be modified to account for multiple winners during the election.  Again, the county-related code would need to be removed as it doesn't apply here.
+
+The updated code's steps could look something like this (pseudo-code):
+- sort the dictionary of candidates and the votes they received by value (the number of votes received)
+- iterate through the sorted dictionary from the start up to the number of open seats for this election (stored in a previous variable)
+- append a copy of this key-value pair of candidate name/number of votes into a a new dictionary of winners
+- print the formatted string of winner information to the output file and terminal
