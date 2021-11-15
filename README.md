@@ -65,10 +65,12 @@ The Python script has been proven to successfully generate results for a congres
 
 The script can be adjusted to handle local mayoral elections.  Currently there are a few sections of code that are specific to tabulating data for counties, but those won't apply to city elections so they would need to be removed:
 
-code_segments_for_county_info.PNG
+![code_segments_for_county_info.PNG](https://github.com/mathur-nikita/Election_Analysis/blob/main/Resources/code_segments_for_county_info.png)
 
 Mayoral elections can have multiple rounds if none of the candidates receive 50% or more of the vote, so an additional result would need to be handled for this situation.  Currently the code is only accounting for majority wins:
 
-winning_candidate_congressional.png
+![winning_candidate_congressional.png](https://github.com/mathur-nikita/Election_Analysis/blob/main/Resources/winning_candidate_congressional.PNG)
 
-This code can be updated to handle a second round voting:
+The updated code would look something like this, with the addition of a few variable name changes for ease of reading:
+
+![mayoral_elections_code.PNG](https://github.com/mathur-nikita/Election_Analysis/blob/main/Resources/mayoral_elections_code.PNG)
